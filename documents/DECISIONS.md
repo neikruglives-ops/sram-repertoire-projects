@@ -15,3 +15,7 @@ Because chamber repertoire is defined by performing forces.
 ## SRYSO uses CURRENT/ as the canonical edition
 
 Because orchestra repertoire tends to have one active performing set.
+
+## Harp abbreviation
+
+SRCE uses `HP` for harp in `reference/SCORE-ORDER.csv`.
