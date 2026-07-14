@@ -19,3 +19,7 @@ Because orchestra repertoire tends to have one active performing set.
 ## Harp abbreviation
 
 SRCE uses `HP` for harp in `reference/SCORE-ORDER.csv`.
+
+## Cross-project handling notes
+
+SRYSO uses `SRCE-HANDLING` to flag repertoire with possible SRCE relevance without interrupting SRYSO cataloging work.
