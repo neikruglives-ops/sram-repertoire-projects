@@ -1,0 +1,16 @@
+TOKEN,DISPLAY,FAMILY,PLAYER-COUNT,NOTES
+PF,Piano,Keyboard,1,
+PF4H,Piano four-hands,Keyboard,2,One piano played by two players
+HP,Harp,Plucked strings,1,
+FL,Flute,Woodwind,1,
+RC,Recorder,Woodwind,1,
+OB,Oboe,Woodwind,1,
+CL,Clarinet,Woodwind,1,
+BN,Bassoon,Woodwind,1,
+VN,Violin,Bowed strings,1,
+VA,Viola,Bowed strings,1,
+VC,Cello,Bowed strings,1,
+DB,Double bass,Bowed strings,1,
+BS,Bass,Bowed strings,1,Generic bass token; normalize to DB where appropriate
+BC,Basso continuo,Continuo,,"Continuo role, not a single fixed instrument"
+ORCH,Orchestra,Ensemble,,Use only when full orchestral forces/files are represented

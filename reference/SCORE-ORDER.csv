@@ -1,0 +1,15 @@
+SORT-ORDER,TOKEN,DISPLAY,NOTES
+100,PF,Piano,"One piano, one player"
+200,PF4H,Piano four-hands,"One piano, two players"
+300,HP,Harp,
+400,FL,Flute,
+500,RC,Recorder,
+600,OB,Oboe,
+700,CL,Clarinet,
+800,BN,Bassoon,
+900,VN,Violin,
+1000,VA,Viola,
+1100,VC,Cello,
+1200,DB,Double bass,Orchestral double bass
+1300,BS,Bass,Generic bass; prefer DB for double bass when known
+1400,BC,Basso continuo,
