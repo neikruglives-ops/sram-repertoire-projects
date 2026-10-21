@@ -6,8 +6,9 @@ work required to reach those decisions belongs in `NEXT-STEPS.md`.
 
 ## Google Drive
 
-- Which data, documentation, and SOP files should be mirrored or rendered in
-  Drive, and which should remain Git-first?
+- No routine documentation mirror is planned: GitHub holds documentation,
+  reference CSVs, and scripts; Drive holds PDFs and live Sheets. Revisit only if
+  a collaborator's actual access limitations require a labeled copy.
 
 ## Canonicality and drift
 

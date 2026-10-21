@@ -50,6 +50,20 @@ local parent-child relationship literally.
 
 ### Shared architecture and data
 
+- **Initial implementation completed 2026-10-20:** shared
+  `reference/COMPOSERS.csv` and `reference/COMPOSER-ALIASES.csv` contain 37
+  reviewed identities and 102 aliases. The approved naming corrections were
+  applied to 190 live composer cells and nine composer folders locally and
+  in Drive. Expand coverage from the remaining catalog names, then toward
+  500–1,000 verified composers as useful. See
+  [Reference guide](../reference/README.md) and
+  [Newcomer guide](NEWCOMER-GUIDE.md#shared-composer-registry).
+  Keep this one common authority for both projects' spreadsheet composer fields
+  and `PDFs/` composer directory names, without child identity overrides.
+  Implement validation/tool consumption separately; preserve roles and plural
+  credits. Resolve remaining held attribution questions before assigning identities;
+  Isaac confirmed the Musette as Johann Sebastian Bach. Reconcile historical local exports with the reviewed
+  live changes before using those exports as current data.
 - Develop a small normalized relational model for composers, works,
   instrumentation, parts, editions, PDF assets, source links, semesters,
   groups, and cross-project relationships.
@@ -70,8 +84,10 @@ local parent-child relationship literally.
 - Update older SRYSO documents where present practice has overtaken them.
 - Document semester operations, group creation, repertoire shortcuts, session
   notes, spreadsheet maintenance, and local/Drive reconciliation.
-- Decide which documentation should also be visible in Google Drive and how it
-  should be represented there.
+- Keep documentation, reference CSVs, and scripts authoritative in GitHub;
+  use Drive for operational PDFs and live spreadsheets. Do not routinely mirror
+  documentation to Drive. If a concrete access limitation requires a copy,
+  label it non-authoritative and identify its source revision.
 
 ### Git and backup
 

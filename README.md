@@ -18,7 +18,9 @@ shared system.
   appropriate, and change history.
 - Top-level `reference/*.csv` files are shared defaults. A child project may
   deliberately replace one for itself with an exact-name file in its own
-  `reference/` directory; there is no automatic row-level merge.
+  `reference/` directory; there is no automatic row-level merge. Composer
+  identity is shared without child overrides: see the
+  [composer registry and alias rules](reference/README.md).
 
 Canonical mappings between local roots and Google Drive roots live in
 `reference/PROJECT-LOCATIONS.csv`.
@@ -45,3 +47,6 @@ interim canonicality rule in `documents/DECISIONS.md`.
    `documents/CODEX-HANDOFF.md`
 
 Unresolved architectural questions live in `documents/OPEN-QUESTIONS.md`.
+
+New collaborators should also read [Newcomer guide](documents/NEWCOMER-GUIDE.md)
+for conventions to keep in mind and the proposed shared composer registry.

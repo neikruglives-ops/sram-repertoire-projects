@@ -48,6 +48,25 @@ This file records settled cross-project rules. Unresolved matters belong in
 - Normalization rules belong in CSV reference tables and documentation, not
   hard-coded in scripts.
 
+### Shared composer authority (2026-10-20)
+
+- `reference/COMPOSERS.csv` and `reference/COMPOSER-ALIASES.csv` in the shared
+  parent repository are one common composer authority for both projects'
+  live repertoire spreadsheets and composer directory naming under `PDFs/`.
+- Composer identities are not subject to child-project overrides. Use stable
+  COMPOSER-ID values and separate display, sort, and directory labels.
+- Name separators in directory tokens are hyphens. Consistent existing
+  surname-only directory tokens may remain; display names may be fuller.
+- Multiple spellings can resolve to the same identity. Rachmaninoff and
+  Rachmaninov are accepted aliases of one record. Ambiguous surnames require
+  work/source context rather than an unrestricted global substitution.
+- The first registry contains 37 reviewed identities. It is intentionally
+  incomplete; extend it through review instead of guessing unknown identities.
+- GitHub holds the maintained rules, documentation, and scripts. Drive holds
+  operational PDFs and live Sheets. No routine documentation mirror is planned.
+- The CSVs establish rules; they do not automatically enforce Sheet validation
+  or update existing scripts and historical exports. See `../reference/README.md`.
+
 ## Project distinctions
 
 - SRCE treats instrumentation as a first-class directory and catalog field.
