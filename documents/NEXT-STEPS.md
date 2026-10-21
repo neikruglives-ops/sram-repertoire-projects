@@ -53,6 +53,9 @@ local parent-child relationship literally.
 - Develop a small normalized relational model for composers, works,
   instrumentation, parts, editions, PDF assets, source links, semesters,
   groups, and cross-project relationships.
+- Audit the live repertoire spreadsheets for internal consistency, incomplete
+  or duplicate entries, instrumentation and work-title accuracy, broken links,
+  and agreement between the PDF and PDF-URL fields and their Drive assets.
 - Continue evaluating
   `SRCE-Repertoire-Project/data/semesters/SRCE-2026-4-Fall/srce-groups.csv` as a
   practical bridge between the current meeting spreadsheet and a more
@@ -85,6 +88,12 @@ local parent-child relationship literally.
 - SRCE: treat the old generated-browser workflow as retired. Design any future
   web front end from scratch, and decide whether `EST-DURATION` belongs in the
   catalog.
+- Audit the operational PDF libraries for practical printability. Begin with
+  machine-readable checks for page size, orientation, mixed-size documents,
+  and suspicious page geometry, then visually inspect exceptions and sampled
+  files for cropping, miniature source pages, imposed two-page scans, page
+  order, legibility, and reliable US Letter printing. Record findings before
+  replacing or rewriting files.
 - SRYSO: finish current spreadsheet/PDF maintenance and resume browser planning
   after the shared architecture is settled.
 - SRYSO: perform a data-integrity audit of the informally named

@@ -22,11 +22,16 @@ This file records settled cross-project rules. Unresolved matters belong in
 - SRCE and SRYSO are backed up as separate private GitHub repositories. Their
   backup boundaries intentionally include useful context and history; a file's
   presence in Git does not by itself make that file canonical.
-- The Drive folder with ID `1v1lmaOMGQlJEDrJD6naj0qrnCm5EgSsO` is the
-  designated logical hub for the two projects. It does not need to physically
-  contain either project root.
+- The Drive folder with ID `1H-3FfjZNclOw2k8qa9XDtWmpKfet93AI` is the
+  designated logical hub for the two projects. It currently contains Drive
+  shortcuts to the independently located SRCE and SRYSO project roots; it does
+  not need to physically contain either root.
 - Drive conventions and shortcuts may express the logical hierarchy. Literal
   shared-parent containment is not required.
+- Unclassified, historical, or otherwise unresolved Drive material may be
+  consulted as context, but it is not canonical and must not be deleted until
+  it has been reconciled against the live project spreadsheet and documented
+  conventions.
 - Canonical local-to-Drive root mappings live in
   `../reference/PROJECT-LOCATIONS.csv`.
 

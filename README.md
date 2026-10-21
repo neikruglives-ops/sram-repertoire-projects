@@ -23,6 +23,18 @@ shared system.
 Canonical mappings between local roots and Google Drive roots live in
 `reference/PROJECT-LOCATIONS.csv`.
 
+## Google Drive realization
+
+- [SRAM logical hub](https://drive.google.com/drive/folders/1H-3FfjZNclOw2k8qa9XDtWmpKfet93AI?usp=drive_link)
+- [SRCE Repertoire Library](https://drive.google.com/drive/folders/1U6MCU8AEuq918N9xrRDtgYcSSp08-9B7?usp=drive_link)
+- [SRYSO Repertoire Library](https://drive.google.com/drive/folders/1oovVwCzW3XUhpxWe35O6VHkTBlk92KoD?usp=drive_link)
+
+The hub is the logical parent of the two project libraries and currently
+contains Google Drive shortcuts to them. The project libraries remain in their
+independent physical locations; literal shared-parent containment is not
+required. Treat unclassified or historical Drive material according to the
+interim canonicality rule in `documents/DECISIONS.md`.
+
 ## Cold-start reading order
 
 1. `AGENTS.md`
