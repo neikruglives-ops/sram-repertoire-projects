@@ -48,5 +48,6 @@ interim canonicality rule in `documents/DECISIONS.md`.
 
 Unresolved architectural questions live in `documents/OPEN-QUESTIONS.md`.
 
-New collaborators should also read [Newcomer guide](documents/NEWCOMER-GUIDE.md)
-for conventions to keep in mind and the proposed shared composer registry.
+For James and his AI collaborator, see the short
+[collaborator orientation](documents/NEWCOMER-GUIDE.md): what changed, which
+data conventions help, and where the design is open to improvement.
